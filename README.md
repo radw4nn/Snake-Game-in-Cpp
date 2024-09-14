@@ -1,5 +1,7 @@
 # Snake Game with Raylib 🐍🎮
 
+![Snake Game with Raylib](img/ico.png)
+
 This project implements a classic **Snake Game** using **C++** and the **Raylib** library. The game features smooth snake movement, random food generation, and collision detection with self, walls, and food. Sound effects are triggered upon eating food and colliding with obstacles.
 
 ## Project Overview 🎯
@@ -70,7 +72,7 @@ The **Snake Game** aims to provide a simple, fun, and interactive experience whe
     ```bash
     g++ main.cpp -o snake_game -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
     ```
-
+    Or, if you are using Visual Studio Code press F5 to build.
 4. **Run the Game**:
     ```bash
     ./snake_game
@@ -78,7 +80,7 @@ The **Snake Game** aims to provide a simple, fun, and interactive experience whe
 
 ## Screenshots 📸
 
-![Screenshot 1](screenshots/scr_1.png)
+![Gameplay Screenshot](screenshots/scr_1.png)
 
 ## Contributing 🫂
 
